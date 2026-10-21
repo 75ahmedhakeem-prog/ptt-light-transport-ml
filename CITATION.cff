@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article below."
+title: "Code and data: light-transport models and machine-learning surrogate for plasmonic photothermal planning"
+authors:
+  - family-names: "Abdel Hakeem"
+    given-names: "A.M."
+    affiliation: "Physics Department, Faculty of Science, Sohag University, Egypt"
+  - family-names: "Ahmed"
+    given-names: "Saleh A."
+    affiliation: "Department of Chemistry, Faculty of Science, Umm Al-Qura University, Saudi Arabia"
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-20"
+preferred-citation:
+  type: article
+  title: "Which light-transport model is needed for plasmonic photothermal planning? An experimentally anchored comparison and a machine-learning surrogate for NIR-I/NIR-II thermal-dose design"
+  authors:
+    - family-names: "Abdel Hakeem"
+      given-names: "A.M."
+    - family-names: "Ahmed"
+      given-names: "Saleh A."
+  status: submitted

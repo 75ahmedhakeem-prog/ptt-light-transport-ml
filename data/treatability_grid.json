@@ -1,0 +1,102 @@
+{
+ "skin45|gnr=0.05": {
+  "treatable_fraction": {
+   "808": 0.5,
+   "1064": 0.4
+  },
+  "mean_best_coverage": {
+   "808": 0.763,
+   "1064": 0.646
+  }
+ },
+ "skin45|gnr=0.1": {
+  "treatable_fraction": {
+   "808": 0.5,
+   "1064": 0.43333333333333335
+  },
+  "mean_best_coverage": {
+   "808": 0.705,
+   "1064": 0.706
+  }
+ },
+ "skin45|gnr=0.2": {
+  "treatable_fraction": {
+   "808": 0.4666666666666667,
+   "1064": 0.43333333333333335
+  },
+  "mean_best_coverage": {
+   "808": 0.736,
+   "1064": 0.656
+  }
+ },
+ "skin45|gnr=0.5": {
+  "treatable_fraction": {
+   "808": 0.43333333333333335,
+   "1064": 0.3
+  },
+  "mean_best_coverage": {
+   "808": 0.681,
+   "1064": 0.583
+  }
+ },
+ "skin45|gnr=1.0": {
+  "treatable_fraction": {
+   "808": 0.4,
+   "1064": 0.3
+  },
+  "mean_best_coverage": {
+   "808": 0.634,
+   "1064": 0.576
+  }
+ },
+ "skin45+MPE|gnr=0.05": {
+  "treatable_fraction": {
+   "808": 0.0,
+   "1064": 0.4
+  },
+  "mean_best_coverage": {
+   "808": 0.0,
+   "1064": 0.646
+  }
+ },
+ "skin45+MPE|gnr=0.1": {
+  "treatable_fraction": {
+   "808": 0.0,
+   "1064": 0.43333333333333335
+  },
+  "mean_best_coverage": {
+   "808": 0.0,
+   "1064": 0.706
+  }
+ },
+ "skin45+MPE|gnr=0.2": {
+  "treatable_fraction": {
+   "808": 0.0,
+   "1064": 0.43333333333333335
+  },
+  "mean_best_coverage": {
+   "808": 0.0,
+   "1064": 0.656
+  }
+ },
+ "skin45+MPE|gnr=0.5": {
+  "treatable_fraction": {
+   "808": 0.0,
+   "1064": 0.3
+  },
+  "mean_best_coverage": {
+   "808": 0.0,
+   "1064": 0.583
+  }
+ },
+ "skin45+MPE|gnr=1.0": {
+  "treatable_fraction": {
+   "808": 0.0,
+   "1064": 0.3
+  },
+  "mean_best_coverage": {
+   "808": 0.0,
+   "1064": 0.576
+  }
+ }
+}

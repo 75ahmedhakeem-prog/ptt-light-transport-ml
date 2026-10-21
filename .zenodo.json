@@ -1,0 +1,11 @@
+{
+  "title": "Code and data: light-transport models and machine-learning surrogate for plasmonic photothermal planning",
+  "upload_type": "software",
+  "description": "Python code (Gans optics, Beer-Lambert, delta-P1 and Monte Carlo light transport, Pennes bioheat, CEM43 dose, ANN/XGBoost surrogates) and data (digitised temperatures, 422,304-sample design dataset) for the article 'Which light-transport model is needed for plasmonic photothermal planning?'.",
+  "creators": [
+    {"name": "Abdel Hakeem, A.M.", "affiliation": "Physics Department, Faculty of Science, Sohag University, Egypt"},
+    {"name": "Ahmed, Saleh A.", "affiliation": "Department of Chemistry, Faculty of Science, Umm Al-Qura University, Saudi Arabia"}
+  ],
+  "license": "MIT",
+  "keywords": ["photothermal therapy", "gold nanorods", "Monte Carlo", "delta-P1", "bioheat", "machine learning"]
+}

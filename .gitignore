@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+figs/*.png
+data/design_dataset_valid.csv
+data/design_dataset.csv

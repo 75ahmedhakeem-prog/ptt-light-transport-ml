@@ -1,0 +1,427 @@
+{
+ "tree_model": "XGBoost",
+ "random": {
+  "T_tum_min": {
+   "ANN": {
+    "R2": 0.9995645221003151,
+    "RMSE": 0.14665092980039057,
+    "time_s": 104.9
+   },
+   "XGBoost": {
+    "R2": 0.9992238653309174,
+    "RMSE": 0.1957808919192517,
+    "time_s": 13.0
+   }
+  },
+  "T_skin_max": {
+   "ANN": {
+    "R2": 0.9997331785650818,
+    "RMSE": 0.18296730630098876,
+    "time_s": 109.6
+   },
+   "XGBoost": {
+    "R2": 0.9996984223664888,
+    "RMSE": 0.19451930136866125,
+    "time_s": 12.9
+   }
+  }
+ },
+ "holdout": [
+  {
+   "target": "T_tum_min",
+   "variable": "spot_mm",
+   "level": 15,
+   "ANN_R2": 0.9944828797764815,
+   "ANN_RMSE": 0.4518252614768798,
+   "XGBoost_R2": 0.6344529032378321,
+   "XGBoost_RMSE": 3.677781756934653
+  },
+  {
+   "target": "T_tum_min",
+   "variable": "spot_mm",
+   "level": 20,
+   "ANN_R2": 0.9989438189231231,
+   "ANN_RMSE": 0.2439890444389335,
+   "XGBoost_R2": 0.8310899088285552,
+   "XGBoost_RMSE": 3.0855240313924255
+  },
+  {
+   "target": "T_tum_min",
+   "variable": "mua_gnr",
+   "level": 0.1,
+   "ANN_R2": 0.9993651751840191,
+   "ANN_RMSE": 0.1739333540191975,
+   "XGBoost_R2": 0.9791310945241541,
+   "XGBoost_RMSE": 0.9972539380041691
+  },
+  {
+   "target": "T_tum_min",
+   "variable": "mua_gnr",
+   "level": 0.2,
+   "ANN_R2": 0.9996222121300075,
+   "ANN_RMSE": 0.14148660360331555,
+   "XGBoost_R2": 0.9832619656958477,
+   "XGBoost_RMSE": 0.9417671626866776
+  },
+  {
+   "target": "T_tum_min",
+   "variable": "mua_gnr",
+   "level": 0.5,
+   "ANN_R2": 0.9997814854896603,
+   "ANN_RMSE": 0.10863189627868194,
+   "XGBoost_R2": 0.9889651484573289,
+   "XGBoost_RMSE": 0.771970078334493
+  },
+  {
+   "target": "T_tum_min",
+   "variable": "depth_mm",
+   "level": 1,
+   "ANN_R2": 0.9990964499146223,
+   "ANN_RMSE": 0.23917217605067861,
+   "XGBoost_R2": 0.9582873954101454,
+   "XGBoost_RMSE": 1.6250554837254343
+  },
+  {
+   "target": "T_tum_min",
+   "variable": "depth_mm",
+   "level": 2,
+   "ANN_R2": 0.9996704174497308,
+   "ANN_RMSE": 0.1299806659088723,
+   "XGBoost_R2": 0.948643740986925,
+   "XGBoost_RMSE": 1.622532269224933
+  },
+  {
+   "target": "T_tum_min",
+   "variable": "depth_mm",
+   "level": 3,
+   "ANN_R2": 0.9997983797263309,
+   "ANN_RMSE": 0.0932312216193557,
+   "XGBoost_R2": 0.9467072996447383,
+   "XGBoost_RMSE": 1.5157519590913053
+  },
+  {
+   "target": "T_tum_min",
+   "variable": "depth_mm",
+   "level": 4,
+   "ANN_R2": 0.9997401763976985,
+   "ANN_RMSE": 0.09200378903580841,
+   "XGBoost_R2": 0.9457106990951651,
+   "XGBoost_RMSE": 1.329913939816316
+  },
+  {
+   "target": "T_tum_min",
+   "variable": "Dt_mm",
+   "level": 7.5,
+   "ANN_R2": 0.9992569371631862,
+   "ANN_RMSE": 0.19542648832133822,
+   "XGBoost_R2": 0.6286412275830294,
+   "XGBoost_RMSE": 4.36885369524264
+  },
+  {
+   "target": "T_tum_min",
+   "variable": "Dt_mm",
+   "level": 10.0,
+   "ANN_R2": 0.9993215466258639,
+   "ANN_RMSE": 0.1375501986967507,
+   "XGBoost_R2": 0.5377692292047085,
+   "XGBoost_RMSE": 3.5902992249991397
+  },
+  {
+   "target": "T_tum_min",
+   "variable": "Dt_mm",
+   "level": 12.5,
+   "ANN_R2": 0.9989578395360603,
+   "ANN_RMSE": 0.11980060797049406,
+   "XGBoost_R2": 0.45015544838154076,
+   "XGBoost_RMSE": 2.7517671910155275
+  },
+  {
+   "target": "T_tum_min",
+   "variable": "perf",
+   "level": 0.0005,
+   "ANN_R2": 0.999697436148834,
+   "ANN_RMSE": 0.12528995877509036,
+   "XGBoost_R2": 0.9575784381586327,
+   "XGBoost_RMSE": 1.4835461935746261
+  },
+  {
+   "target": "T_tum_min",
+   "variable": "perf",
+   "level": 0.001,
+   "ANN_R2": 0.9997583977702982,
+   "ANN_RMSE": 0.10520679816258702,
+   "XGBoost_R2": 0.9678571712965232,
+   "XGBoost_RMSE": 1.2134877080150255
+  },
+  {
+   "target": "T_tum_min",
+   "variable": "h_cool",
+   "level": 200.0,
+   "ANN_R2": 0.9992849984386856,
+   "ANN_RMSE": 0.19171322087119994,
+   "XGBoost_R2": 0.901172160547278,
+   "XGBoost_RMSE": 2.2539185561226676
+  },
+  {
+   "target": "T_tum_min",
+   "variable": "I_Wcm2",
+   "level": 0.5,
+   "ANN_R2": 0.9989598385530525,
+   "ANN_RMSE": 0.10159022112541807,
+   "XGBoost_R2": 0.45528284307364353,
+   "XGBoost_RMSE": 2.324807812662888
+  },
+  {
+   "target": "T_tum_min",
+   "variable": "I_Wcm2",
+   "level": 0.75,
+   "ANN_R2": 0.9994129279097301,
+   "ANN_RMSE": 0.11411099038558237,
+   "XGBoost_R2": 0.755531717740241,
+   "XGBoost_RMSE": 2.328589946257905
+  },
+  {
+   "target": "T_tum_min",
+   "variable": "I_Wcm2",
+   "level": 1.0,
+   "ANN_R2": 0.9996883064580807,
+   "ANN_RMSE": 0.10856946785006477,
+   "XGBoost_R2": 0.8597432031000647,
+   "XGBoost_RMSE": 2.3030627198655163
+  },
+  {
+   "target": "T_tum_min",
+   "variable": "I_Wcm2",
+   "level": 1.5,
+   "ANN_R2": 0.9994745081583888,
+   "ANN_RMSE": 0.19205548160851246,
+   "XGBoost_R2": 0.7406542597126449,
+   "XGBoost_RMSE": 4.266613251303529
+  },
+  {
+   "target": "T_tum_min",
+   "variable": "t_s",
+   "level": 300,
+   "ANN_R2": 0.9976385369081021,
+   "ANN_RMSE": 0.3204366645400817,
+   "XGBoost_R2": 0.674913180198177,
+   "XGBoost_RMSE": 3.7596836378578664
+  },
+  {
+   "target": "T_tum_min",
+   "variable": "t_s",
+   "level": 450,
+   "ANN_R2": 0.9992041103420993,
+   "ANN_RMSE": 0.19982409041768617,
+   "XGBoost_R2": 0.9469881825538201,
+   "XGBoost_RMSE": 1.630826504122982
+  },
+  {
+   "target": "T_tum_min",
+   "variable": "t_s",
+   "level": 600,
+   "ANN_R2": 0.9993676914459804,
+   "ANN_RMSE": 0.18827311963055782,
+   "XGBoost_R2": 0.9811542021439112,
+   "XGBoost_RMSE": 1.0278531105077668
+  },
+  {
+   "target": "T_skin_max",
+   "variable": "spot_mm",
+   "level": 15,
+   "ANN_R2": 0.9974732876199445,
+   "ANN_RMSE": 0.5466563073530621,
+   "XGBoost_R2": 0.7384713791784391,
+   "XGBoost_RMSE": 5.561552881553743
+  },
+  {
+   "target": "T_skin_max",
+   "variable": "spot_mm",
+   "level": 20,
+   "ANN_R2": 0.9994089419999387,
+   "ANN_RMSE": 0.29323968092477276,
+   "XGBoost_R2": 0.9030173422040884,
+   "XGBoost_RMSE": 3.7562520741775027
+  },
+  {
+   "target": "T_skin_max",
+   "variable": "mua_gnr",
+   "level": 0.1,
+   "ANN_R2": 0.9997703583837136,
+   "ANN_RMSE": 0.1664636321674025,
+   "XGBoost_R2": 0.9871064100806178,
+   "XGBoost_RMSE": 1.247328931317496
+  },
+  {
+   "target": "T_skin_max",
+   "variable": "mua_gnr",
+   "level": 0.2,
+   "ANN_R2": 0.9997315368245657,
+   "ANN_RMSE": 0.1816256561146803,
+   "XGBoost_R2": 0.9848644291208232,
+   "XGBoost_RMSE": 1.3637483491630653
+  },
+  {
+   "target": "T_skin_max",
+   "variable": "mua_gnr",
+   "level": 0.5,
+   "ANN_R2": 0.9996954028486795,
+   "ANN_RMSE": 0.19651601175892783,
+   "XGBoost_R2": 0.9797017277312132,
+   "XGBoost_RMSE": 1.6042223393999988
+  },
+  {
+   "target": "T_skin_max",
+   "variable": "depth_mm",
+   "level": 1,
+   "ANN_R2": 0.9970316551336992,
+   "ANN_RMSE": 0.584702632594545,
+   "XGBoost_R2": 0.6405712307672886,
+   "XGBoost_RMSE": 6.4340478864463435
+  },
+  {
+   "target": "T_skin_max",
+   "variable": "depth_mm",
+   "level": 2,
+   "ANN_R2": 0.9996192669600796,
+   "ANN_RMSE": 0.20236367278037895,
+   "XGBoost_R2": 0.9234982331191287,
+   "XGBoost_RMSE": 2.868520795300496
+  },
+  {
+   "target": "T_skin_max",
+   "variable": "depth_mm",
+   "level": 3,
+   "ANN_R2": 0.9997369331415057,
+   "ANN_RMSE": 0.16679294624989116,
+   "XGBoost_R2": 0.9821520627164683,
+   "XGBoost_RMSE": 1.373847812279132
+  },
+  {
+   "target": "T_skin_max",
+   "variable": "depth_mm",
+   "level": 4,
+   "ANN_R2": 0.9997731380170168,
+   "ANN_RMSE": 0.15605724555536998,
+   "XGBoost_R2": 0.9959274371988233,
+   "XGBoost_RMSE": 0.6612062809053583
+  },
+  {
+   "target": "T_skin_max",
+   "variable": "Dt_mm",
+   "level": 7.5,
+   "ANN_R2": 0.9996478232601418,
+   "ANN_RMSE": 0.2084289786327197,
+   "XGBoost_R2": 0.9977954056825638,
+   "XGBoost_RMSE": 0.5214853444648546
+  },
+  {
+   "target": "T_skin_max",
+   "variable": "Dt_mm",
+   "level": 10.0,
+   "ANN_R2": 0.999663871658793,
+   "ANN_RMSE": 0.207415109489047,
+   "XGBoost_R2": 0.9996159314347944,
+   "XGBoost_RMSE": 0.22171353451627093
+  },
+  {
+   "target": "T_skin_max",
+   "variable": "Dt_mm",
+   "level": 12.5,
+   "ANN_R2": 0.9997965401975437,
+   "ANN_RMSE": 0.1604555005702724,
+   "XGBoost_R2": 0.9995664316442125,
+   "XGBoost_RMSE": 0.23423084719293172
+  },
+  {
+   "target": "T_skin_max",
+   "variable": "perf",
+   "level": 0.0005,
+   "ANN_R2": 0.9997874553645509,
+   "ANN_RMSE": 0.16648961980190524,
+   "XGBoost_R2": 0.9790266102640022,
+   "XGBoost_RMSE": 1.6538510797173716
+  },
+  {
+   "target": "T_skin_max",
+   "variable": "perf",
+   "level": 0.001,
+   "ANN_R2": 0.9997115232827147,
+   "ANN_RMSE": 0.18742646322511997,
+   "XGBoost_R2": 0.9828481162863358,
+   "XGBoost_RMSE": 1.445211597923504
+  },
+  {
+   "target": "T_skin_max",
+   "variable": "h_cool",
+   "level": 200.0,
+   "ANN_R2": 0.9674637675422424,
+   "ANN_RMSE": 1.4344978294957862,
+   "XGBoost_R2": -2.556883335095253,
+   "XGBoost_RMSE": 14.998612144533487
+  },
+  {
+   "target": "T_skin_max",
+   "variable": "I_Wcm2",
+   "level": 0.5,
+   "ANN_R2": 0.9991895321091122,
+   "ANN_RMSE": 0.14472399198683655,
+   "XGBoost_R2": 0.30323729567490276,
+   "XGBoost_RMSE": 4.243410772687855
+  },
+  {
+   "target": "T_skin_max",
+   "variable": "I_Wcm2",
+   "level": 0.75,
+   "ANN_R2": 0.9995505613631245,
+   "ANN_RMSE": 0.16125737938178758,
+   "XGBoost_R2": 0.6899098365026984,
+   "XGBoost_RMSE": 4.235731185157059
+  },
+  {
+   "target": "T_skin_max",
+   "variable": "I_Wcm2",
+   "level": 1.0,
+   "ANN_R2": 0.9997226805496578,
+   "ANN_RMSE": 0.16455469230884998,
+   "XGBoost_R2": 0.8205351431230705,
+   "XGBoost_RMSE": 4.186102073203685
+  },
+  {
+   "target": "T_skin_max",
+   "variable": "I_Wcm2",
+   "level": 1.5,
+   "ANN_R2": 0.9996468262576105,
+   "ANN_RMSE": 0.23411541224344143,
+   "XGBoost_R2": 0.6357652725516756,
+   "XGBoost_RMSE": 7.518418159829638
+  },
+  {
+   "target": "T_skin_max",
+   "variable": "t_s",
+   "level": 300,
+   "ANN_R2": 0.9979229325759204,
+   "ANN_RMSE": 0.5028952384110688,
+   "XGBoost_R2": 0.7708932078911273,
+   "XGBoost_RMSE": 5.2816693396020495
+  },
+  {
+   "target": "T_skin_max",
+   "variable": "t_s",
+   "level": 450,
+   "ANN_R2": 0.9996402599087624,
+   "ANN_RMSE": 0.2211801772673364,
+   "XGBoost_R2": 0.9749283381623471,
+   "XGBoost_RMSE": 1.846474618708755
+  },
+  {
+   "target": "T_skin_max",
+   "variable": "t_s",
+   "level": 600,
+   "ANN_R2": 0.9996073702146197,
+   "ANN_RMSE": 0.2365030992399653,
+   "XGBoost_R2": 0.9923957309297462,
+   "XGBoost_RMSE": 1.0408159831146153
+  }
+ ]
+}
