@@ -15,7 +15,7 @@ doi: "10.5281/zenodo.23530112"
 repository-code: "https://github.com/75ahmedhakeem-prog/ptt-light-transport-ml"
 preferred-citation:
   type: article
-  title: "Which light-transport model is needed for plasmonic photothermal planning? An experimentally anchored comparison and a machine-learning surrogate for NIR-I/NIR-II thermal-dose design"
+  title: "Beyond Beer–Lambert: experimentally validated light transport and machine-learning design of safe NIR-II plasmonic photothermal therapy"
   authors:
     - family-names: "Abdel Hakeem"
       given-names: "A.M."

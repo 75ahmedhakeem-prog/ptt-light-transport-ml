@@ -2,8 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23530112.svg)](https://doi.org/10.5281/zenodo.23530112)
 
-Code and data for the article *"Which light-transport model is needed for plasmonic photothermal planning?
-An experimentally anchored comparison and a machine-learning surrogate for NIR-I/NIR-II thermal-dose design"*
+Code and data for the article *"Beyond Beer–Lambert: experimentally validated light transport and machine-learning design of safe NIR-II plasmonic photothermal therapy"*
 (A.M. Abdel Hakeem, S.A. Ahmed, submitted 2026).
 
 The repository contains
