@@ -1,5 +1,7 @@
 # Light-transport models and ML surrogate for plasmonic photothermal planning
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23530112.svg)](https://doi.org/10.5281/zenodo.23530112)
+
 Code and data for the article *"Which light-transport model is needed for plasmonic photothermal planning?
 An experimentally anchored comparison and a machine-learning surrogate for NIR-I/NIR-II thermal-dose design"*
 (A.M. Abdel Hakeem, S.A. Ahmed, submitted 2026).

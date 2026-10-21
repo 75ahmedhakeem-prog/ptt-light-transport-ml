@@ -10,7 +10,9 @@ authors:
     affiliation: "Department of Chemistry, Faculty of Science, Umm Al-Qura University, Saudi Arabia"
 license: MIT
 version: "1.0.0"
-date-released: "2026-10-20"
+date-released: "2026-10-21"
+doi: "10.5281/zenodo.23530112"
+repository-code: "https://github.com/75ahmedhakeem-prog/ptt-light-transport-ml"
 preferred-citation:
   type: article
   title: "Which light-transport model is needed for plasmonic photothermal planning? An experimentally anchored comparison and a machine-learning surrogate for NIR-I/NIR-II thermal-dose design"
