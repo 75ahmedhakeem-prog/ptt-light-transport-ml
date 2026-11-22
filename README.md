@@ -55,6 +55,9 @@ the digitised CSV files are provided instead. Please cite the original articles 
 | Smooth-function surrogate baselines on the same hold-outs (Table 10) | `ml_baselines.py` (run with `Poly2,Poly3,Poly4,Poly5,Spline,RBF` and `GP`), `time_all.py` | `ml_baselines_holdout_*.csv`, `time_all.json` |
 | Exhaustive exact design search and robust design, ANN vs exact | `design_exact.py exact`, `design_exact.py robust 64` | `design_exact.json`, `robust_design.json` |
 | Heterogeneous nanorod distributions at equal total gold (Fig. 11) | `het_ptt.py`, `make_fig_het.py` | `het_ptt.json` |
+| Heterogeneity-aware 1064 nm design (heating up to 1200 s) | `het_design.py` | `het_design.json` |
+| ANN ranking with exact refinement of the top K candidates | `design_polish.py` | `design_polish.json` |
+| Three extra cooling levels (h = 30, 100, 500) and the h = 200 hold-out | `gen_hdense.py`, `hdense_holdout.py` | `design_dataset_hdense.csv.gz`, `hdense_holdout.json` |
 
 XGBoost was run in Google Colab; see `colab/RUN_ML_IN_COLAB.md` and `colab/RUN_IN_COLAB.md`.
 
