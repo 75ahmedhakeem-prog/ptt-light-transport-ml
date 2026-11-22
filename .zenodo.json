@@ -1,11 +1,48 @@
 {
   "title": "Code and data: light-transport models and machine-learning surrogate for plasmonic photothermal planning",
   "upload_type": "software",
-  "description": "Python code (Gans optics, Beer-Lambert, delta-P1 and Monte Carlo light transport, Pennes bioheat, CEM43 dose, ANN/XGBoost surrogates) and data (digitised temperatures, 422,304-sample design dataset) for the article 'Which light-transport model is needed for plasmonic photothermal planning?'.",
+  "description": "Python code (Gans optics, Beer-Lambert, delta-P1 and Monte Carlo light transport, Pennes bioheat, CEM43 dose, ANN, XGBoost and smooth-function surrogates, exact design refinement, robust and heterogeneity-aware design) and data (digitised temperatures, 846,126-sample design dataset) for the article 'Monte Carlo, not Beer–Lambert: blind-validated light models and machine learning for safe NIR-II photothermal planning'.",
   "creators": [
-    {"name": "Abdel Hakeem, A.M.", "affiliation": "Physics Department, Faculty of Science, Sohag University, Egypt"},
-    {"name": "Ahmed, Saleh A.", "affiliation": "Department of Chemistry, Faculty of Science, Umm Al-Qura University, Saudi Arabia"}
+    {
+      "name": "Othman, Manal A.",
+      "affiliation": "Medical Education Department, College of Medicine, Princess Nourah bint Abdulrahman University, Riyadh, Saudi Arabia"
+    },
+    {
+      "name": "Alshihri, Abdulaziz A.",
+      "affiliation": "Department of Radiological Sciences, College of Applied Medical Sciences, King Khalid University, Abha, Saudi Arabia"
+    },
+    {
+      "name": "Althbiti, Ashrf",
+      "affiliation": "Department of Information Technology, College of Computers and Information Technology, Taif University, Taif, Saudi Arabia"
+    },
+    {
+      "name": "Alghamdi, Wael Y.",
+      "affiliation": "Department of Computer Science, College of Computers and Information Technology, Taif University, Taif, Saudi Arabia"
+    },
+    {
+      "name": "Alshammari, Sami Aziz",
+      "affiliation": "Department of Information Technology, Faculty of Computing and Information Technology, Northern Border University, Rafha, Saudi Arabia"
+    },
+    {
+      "name": "Alnafisah, Khalid Hamad",
+      "affiliation": "Department of Computer Sciences, Faculty of Computing and Information Technology, Northern Border University, Rafha, Saudi Arabia"
+    },
+    {
+      "name": "Alshammari, Nayef H.",
+      "affiliation": "Department of Computer Science, Faculty of Computers and Information Technology, University of Tabuk, Tabuk, Saudi Arabia"
+    },
+    {
+      "name": "Abdel Hakeem, A.M.",
+      "affiliation": "Physics Department, Faculty of Science, Sohag University, Egypt"
+    }
   ],
   "license": "MIT",
-  "keywords": ["photothermal therapy", "gold nanorods", "Monte Carlo", "delta-P1", "bioheat", "machine learning"]
+  "keywords": [
+    "photothermal therapy",
+    "gold nanorods",
+    "Monte Carlo",
+    "delta-P1",
+    "bioheat",
+    "machine learning"
+  ]
 }

@@ -1,8 +1,8 @@
 # Light-transport models and ML surrogate for plasmonic photothermal planning
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23530112.svg)](https://doi.org/10.5281/zenodo.23530112)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23530111.svg)](https://doi.org/10.5281/zenodo.23530111)
 
-Code and data for the article *"Beyond Beer–Lambert: experimentally validated light transport and machine-learning design of safe NIR-II plasmonic photothermal therapy"*
+Code and data for the article *"Monte Carlo, not Beer–Lambert: blind-validated light models and machine learning for safe NIR-II photothermal planning"*
 (M.A. Othman, A.A. Alshihri, A. Althbiti, W.Y. Alghamdi, S.A. Alshammari, K.H. Alnafisah, N.H. Alshammari, A.M. Abdel Hakeem, submitted 2026).
 
 The repository contains
