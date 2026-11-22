@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23530112.svg)](https://doi.org/10.5281/zenodo.23530112)
 
 Code and data for the article *"Beyond Beer–Lambert: experimentally validated light transport and machine-learning design of safe NIR-II plasmonic photothermal therapy"*
-(A.M. Abdel Hakeem, S.A. Ahmed, submitted 2026).
+(M.A. Othman, A.A. Alshihri, A. Althbiti, W.Y. Alghamdi, S.A. Alshammari, K.H. Alnafisah, N.H. Alshammari, A.M. Abdel Hakeem, submitted 2026).
 
 The repository contains
 
@@ -51,7 +51,10 @@ the digitised CSV files are provided instead. Please cite the original articles 
 | Design dataset (Table 2) | `gen_dataset.py` (≈ 20 min on 2 cores) | `design_dataset.csv` |
 | Surrogates, level hold-out (Table 9, Fig. 8) | `ml_design.py`, `ann_ensemble.py`, `../colab/xgb_tune.py`, `make_fig89.py` | `colab_res/`, `xgb_tuned/`, `ann_ensemble_holdout.csv` |
 | Treatability and NIR-II sensitivity (Figs. 9–10) | `treatability.py`, `sens_nir2.py`, `sens_nir2_coll.py`, `make_fig89.py`, `make_fig10.py` | `treatability_grid.json`, `sens_nir2*.json` |
-| Protocol design and verification (Table 10) | `design_opt.py`, `design_uncert.py` | `design_opt.json` |
+| Protocol design and verification (Table 11) | `design_opt.py`, `design_uncert.py` | `design_opt.json` |
+| Smooth-function surrogate baselines on the same hold-outs (Table 10) | `ml_baselines.py` (run with `Poly2,Poly3,Poly4,Poly5,Spline,RBF` and `GP`), `time_all.py` | `ml_baselines_holdout_*.csv`, `time_all.json` |
+| Exhaustive exact design search and robust design, ANN vs exact | `design_exact.py exact`, `design_exact.py robust 64` | `design_exact.json`, `robust_design.json` |
+| Heterogeneous nanorod distributions at equal total gold (Fig. 11) | `het_ptt.py`, `make_fig_het.py` | `het_ptt.json` |
 
 XGBoost was run in Google Colab; see `colab/RUN_ML_IN_COLAB.md` and `colab/RUN_IN_COLAB.md`.
 

@@ -1,0 +1,89 @@
+{
+ "808|skin45": {
+  "exact_best": {
+   "spot_mm": 25.0,
+   "h_cool": 1000.0,
+   "I": 1.0,
+   "t": 810.0,
+   "coverage": 0.9816326530612246,
+   "T_skin_max": 43.13987336535476,
+   "V_collateral": 413.5121330287564
+  },
+  "ann_choice": {
+   "spot_mm": 25.0,
+   "h_cool": 1000.0,
+   "I_Wcm2": 1.05,
+   "t_s": 690.0,
+   "dP1_coverage": 0.9745,
+   "dP1_V_collateral": 422.5442
+  }
+ },
+ "808|skin45+MPE": {
+  "exact_best": {
+   "spot_mm": 10.0,
+   "h_cool": 10.0,
+   "I": 0.25,
+   "t": 120.0,
+   "coverage": 0.0,
+   "T_skin_max": 38.77278452513934,
+   "V_collateral": 0.0,
+   "sc": -3e-05
+  },
+  "ann_choice": {
+   "spot_mm": 23.0,
+   "h_cool": 1000.0,
+   "I_Wcm2": 0.25,
+   "t_s": 900.0,
+   "dP1_coverage": 0.0,
+   "dP1_V_collateral": 0.0
+  }
+ },
+ "808|cost": {
+  "n_sim": 96,
+  "t_total_s": 40.92339187500011,
+  "n_grid": 184032
+ },
+ "1064|skin45": {
+  "exact_best": {
+   "spot_mm": 21.0,
+   "h_cool": 1000.0,
+   "I": 1.025,
+   "t": 810.0,
+   "coverage": 0.9816326530612246,
+   "T_skin_max": 44.565126898888565,
+   "V_collateral": 627.9258316362599
+  },
+  "ann_choice": {
+   "spot_mm": 21.0,
+   "h_cool": 1000.0,
+   "I_Wcm2": 1.0,
+   "t_s": 900.0,
+   "dP1_coverage": 0.9816,
+   "dP1_V_collateral": 654.2367
+  }
+ },
+ "1064|skin45+MPE": {
+  "exact_best": {
+   "spot_mm": 22.0,
+   "h_cool": 1000.0,
+   "I": 0.975,
+   "t": 810.0,
+   "coverage": 0.9816326530612246,
+   "T_skin_max": 44.374110625593055,
+   "V_collateral": 644.8118921493051
+  },
+  "ann_choice": {
+   "spot_mm": 21.0,
+   "h_cool": 1000.0,
+   "I_Wcm2": 1.0,
+   "t_s": 900.0,
+   "dP1_coverage": 0.9816,
+   "dP1_V_collateral": 654.2367
+  }
+ },
+ "1064|cost": {
+  "n_sim": 96,
+  "t_total_s": 40.44977458300036,
+  "n_grid": 184032
+ }
+}
